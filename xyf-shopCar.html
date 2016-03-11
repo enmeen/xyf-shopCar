@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <!--是否网页中的号码显示为拨号超链接-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!--iphone设备中的safari私有meta标签，它表示：允许全屏模式浏览；-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!-- iphone的私有标签，它指定的iphone中safari顶端的状态条的样式； -->
+    <title>shopCar</title>
+    <link rel="stylesheet" type="text/css" href="css/css-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--header/s-->
+    <div class="header pr">
+        <img src="images/icon_return.png" />正品美妆必BUY
+    </div>
+    <!--header/e-->
+    <!--nav/s-->
+    <div class="nav pr"> 
+    	<i class="shadow"></i>
+        <ul class="nav-ul fl ">
+            <li class="on">洁面</li>
+            <li>水养护肤</li>
+            <li>滋养护肤</li>
+            <li>净化修复</li>
+            <li>自定义</li>
+        </ul>
+    </div>
+    <!--nav/e-->
+    <!--wrap/s-->
+    <div class="wrap clearfix">
+        <div>
+            <div class="img-div"><img src="images/product_list.png" /></div>
+            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" /></i>￥36.00 <span> +16积分</span></p>
+        </div>
+        <div>
+            <div class="img-div"><img src="images/product_list.png" /></div>
+            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" /></i>￥36.00 <span> +16.00积分</span></p>
+        </div>
+        <div>
+            <div class="img-div"><img src="images/product_list.png" /></div>
+            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" /></i>￥36.00 <span> +16.00积分</span></p>
+        </div>
+        <div>
+            <div class="img-div"><img src="images/product_list.png" /></div>
+            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" /></i>￥36.00 <span> +16.00积分</span></p>
+        </div>
+        <div>
+            <div class="img-div"><img src="images/product_list.png" /></div>
+            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" /></i>￥36.00 <span> +16.00积分</span></p>
+        </div>
+        <div>
+            <div class="img-div"><img src="images/product_list.png" /></div>
+            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" /></i>￥36.00<span>+16.00积分</span></p>
+        </div>
+    </div>
+    <!--wrap/e-->
+    <script type="text/javascript">
+    window.onload = function() {
+        var ww = $(document.body).width();
+        var htm = $('html');
+        console.log(ww);
+        var math = ww * 32 / 640;
+        var percentage = ww / 640;
+        console.log(percentage);
+        htm.css('font-size', math + 'px');
+        console.log(htm.css('font-size'));
+       /* var productCars = $('.product-car');
+        console.log(productCars);
+        productCars.each(function() {
+                $(this).css('transform', "scale(" + percentage + ',' + percentage + ")")
+            })*/
+           
+    }
+    </script>
+</body>
+
+</html>
