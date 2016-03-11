@@ -10,8 +10,8 @@ body{max-width: 640px;margin: 0 auto;}
 
 /* 由于导航栏子项目熟练未定，所以最好由js来定宽度 */
 
-.nav-ul{width: 200%;}
-.nav li{float: left;overflow: hidden;box-sizing: border-box;width: 13.5%;height: 2.375rem;font: .875rem/2.375rem '微软雅黑';text-align: center;background-color: #fff;}
+.nav-ul{width:40rem;}
+.nav li{float: left;overflow: hidden;box-sizing: border-box;width: 5.42rem;height: 2.375rem;font: .875rem/2.375rem '微软雅黑';text-align: center;background-color: #fff;}
 li.on{position: relative;color: #df2a5c;border-bottom: 3px solid #b50133;}
 li.on:after{position: absolute;bottom: 0;left: 50%;width: 0;height: 0;content: '';border: 3px solid transparent;border-bottom-color: #b50133;}
 
@@ -27,3 +27,8 @@ li.on:after{position: absolute;bottom: 0;left: 50%;width: 0;height: 0;content: '
 .product-car img{width: 1rem;height: .90625rem;vertical-align: middle;}
 .img-div{overflow: hidden;height: 7.09375rem;line-height: 7.09375rem;text-align: center;}
 .img-div img{width: 9.15625rem;vertical-align: middle;}
+@media screen and (max-width: 460px){
+	.product-price{
+		font-size:16px;
+	}
+}
