@@ -12,11 +12,25 @@
     <!-- iphone的私有标签，它指定的iphone中safari顶端的状态条的样式； -->
     <title>shopCar</title>
     <link rel="stylesheet" type="text/css" href="css/css-reset.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/xyf-act-list.css">
     <!-- 移动端jq -->
 	<script type="text/javascript" src='js/zepto.min.js'></script>
 	<script type="text/javascript" src="js/touch.js"></script>
 	<script type="text/javascript" src="js/fx.js"></script>
+	<script type="text/javascript">
+		!(function (doc, win) {    
+            var docEl = doc.documentElement,    
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',    
+            recalc = function () {    
+            var clientWidth = docEl.clientWidth;    
+            if (!clientWidth) return;    
+            docEl.style.fontSize = 32 * (clientWidth / 640) + 'px';    
+        };    
+        if (!doc.addEventListener) return;    
+        win.addEventListener(resizeEvt, recalc, false);    
+        doc.addEventListener('DOMContentLoaded', recalc, false);    
+        })(document, window);
+	</script>
 
 </head>
 
@@ -35,41 +49,43 @@
             <li class="list-2">滋养护肤</li>
             <li class="list-3">净化修复</li>
             <li class="list-4">自定义</li>
+            <li class="list-5">自定义</li>
+            <li class="list-6">自定义</li>
         </ul>
     </div>
     <!--nav/e-->
     <!--wrap/s-->
     <div class="wrap clearfix">
-        <div>
+        <a href='' class="abl">
             <div class="img-div"><img src="images/product_list.png" alt='产品图片' /></div>
-            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
-            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00 <span> +16积分</span></p>
-        </div>
-        <div>
+            <p class="product-name">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price"><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>&yen;36.00<span>+16积分</span></p>
+        </a>
+        <a href='' class="abl">
             <div class="img-div"><img src="images/product_list.png" alt='产品图片' /></div>
-            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
-            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00 <span> +16.00积分</span></p>
-        </div>
-        <div>
+            <p class="product-name">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price"><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>&yen;3600.00<span>+16积分</span></p>
+        </a>
+        <a href='' class="abl">
             <div class="img-div"><img src="images/product_list.png" alt='产品图片' /></div>
-            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
-            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00 <span> +16.00积分</span></p>
-        </div>
-        <div>
+            <p class="product-name">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price"><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>&yen;36.00<span>+16积分</span></p>
+        </a>
+        <a href='' class="abl">
             <div class="img-div"><img src="images/product_list.png" alt='产品图片' /></div>
-            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
-            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00 <span> +16.00积分</span></p>
-        </div>
-        <div>
+            <p class="product-name">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price"><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>&yen;36.00<span>+16.积分</span></p>
+        </a>
+        <a href='' class="abl">
             <div class="img-div"><img src="images/product_list.png" alt='产品图片' /></div>
-            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
-            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00 <span> +16.00积分</span></p>
-        </div>
-        <div>
+            <p class="product-name">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price"><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>&yen;36.00<span>+16积分</span></p>
+        </a>
+        <a href='' class="abl">
             <div class="img-div"><img src="images/product_list.png" alt='产品图片' /></div>
-            <p class="product-name fwb">巴黎蓝BANILA 两用修唇液用修唇液</p>
-            <p class="product-price fwb "><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00<span>+16.00积分</span></p>
-        </div>
+            <p class="product-name">巴黎蓝BANILA 两用修唇液用修唇液</p>
+            <p class="product-price"><i class="product-car fr"><img src="images/shop_car.png" alt='购物车'/></i>￥36.00<span>+16.00积分</span></p>
+        </a>
     </div>
     <!--wrap/e-->
     <script type="text/javascript" src='js/xyf-shopCar.js'></script>
