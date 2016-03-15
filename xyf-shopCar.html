@@ -14,24 +14,23 @@
     <link rel="stylesheet" type="text/css" href="css/css-reset.css">
     <link rel="stylesheet" type="text/css" href="css/xyf-act-list.css">
     <!-- 移动端jq -->
-	<script type="text/javascript" src='js/zepto.min.js'></script>
-	<script type="text/javascript" src="js/touch.js"></script>
-	<script type="text/javascript" src="js/fx.js"></script>
-	<script type="text/javascript">
-		!(function (doc, win) {    
-            var docEl = doc.documentElement,    
-            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',    
-            recalc = function () {    
-            var clientWidth = docEl.clientWidth;    
-            if (!clientWidth) return;    
-            docEl.style.fontSize = 32 * (clientWidth / 640) + 'px';    
-        };    
-        if (!doc.addEventListener) return;    
-        win.addEventListener(resizeEvt, recalc, false);    
-        doc.addEventListener('DOMContentLoaded', recalc, false);    
-        })(document, window);
-	</script>
-
+    <script type="text/javascript" src='js/zepto.min.js'></script>
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script type="text/javascript" src="js/fx.js"></script>
+    <script type="text/javascript">
+    !(function(doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function() {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 32 * (clientWidth / 640) + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    </script>
 </head>
 
 <body>
@@ -49,8 +48,14 @@
             <li class="list-2">滋养护肤</li>
             <li class="list-3">净化修复</li>
             <li class="list-4">自定义</li>
-            <li class="list-5">自定义</li>
+            <li class="list-5">净化修复</li>
             <li class="list-6">自定义</li>
+            <li class="list-7">净化修复</li>
+            <li class="list-8">自定义</li>
+             <li class="list-9">自定义</li>
+            <li class="list-10">净化修复</li>
+            <li class="list-11">自定义</li>
+
         </ul>
     </div>
     <!--nav/e-->
@@ -88,7 +93,7 @@
         </a>
     </div>
     <!--wrap/e-->
-    <script type="text/javascript" src='js/xyf-shopCar.js'></script>
+    <script type="text/javascript" src='js/xyf-shop.js'></script>
 </body>
 
 </html>

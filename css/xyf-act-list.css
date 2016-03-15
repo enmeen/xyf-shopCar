@@ -11,7 +11,10 @@ body{max-width: 640px;margin: 0 auto;font-family: '微软雅黑';}
 
 /* 由于导航栏子项目熟练未定，所以最好由js来定宽度 */
 
-.nav-ul{width: 40rem;}
+.nav-ul {
+    width: 100rem;
+}
+
 .nav li{float: left;overflow: hidden;box-sizing: border-box;width: 5.42rem;height: 2.375rem;font: .875rem/2.375rem '微软雅黑';text-align: center;background-color: #fff;}
 li.on{position: relative;color: #df2a5c;border-bottom: 3px solid #b50133;}
 li.on:after{position: absolute;bottom: 0;left: 50%;width: 0;height: 0;content: '';border: 3px solid transparent;border-bottom-color: #b50133;}
