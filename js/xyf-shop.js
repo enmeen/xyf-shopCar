@@ -1,4 +1,5 @@
 window.onload = function() {
+	
     /*nav点击、滑动切换事件*/
     'use strict';
     function switchNav() {
@@ -10,7 +11,7 @@ window.onload = function() {
         var maxleft = navli_left * navLi.length - $('.nav').eq(0).width(); //导航栏目超出nav宽度的距离。即像右滑动的最大距离
         var nav = $('.nav').eq(0);
         //获取当前li的marginleft值;
-        nav.live('tap', function(e) {//1.采用事件委托
+        nav.on('tap', function(e) {//1.采用事件委托
             var eTar = e.target;
             var $eTar = $(eTar);//转化为jq对象
             var n = $eTar.index();
